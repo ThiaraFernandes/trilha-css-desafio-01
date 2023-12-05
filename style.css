@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    background: #000000;
+    color: white;
+    text-decoration: none;
+}
+
+html{
+    height: 100vh;
+}
+
+header .trilha {
+    /* background-color: black; */
+    background-image: url('./images/banner.png'), linear-gradient(180deg, rgba(14, 13, 13, 0.6) 0%, rgba(26, 27, 28, 0) 100%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #31A8DD;
+    ;
+
+}
+
+header .trilha .logo {
+    width: 248px;
+    height: 214px;
+    top: 27px;
+    left: 131px;
+    margin-top: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0), rgb(18, 63, 82), rgba(0, 0, 0));
+    border-radius: 50%;
+    
+}
+
+header .trilha h1 {
+    /* -webkit-background-clip: text; */
+    /* color: transparent; */
+    /* background-clip: text; */
+    color: #33A8DB;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 46.96px;
+    padding: 20px;
+    margin-top: 20px;
+    background: transparent;
+
+}
+
+header .trilha p {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    width: 510px;
+    height: 46px;
+    padding-bottom: 20px;
+    line-height: 23.48px;
+}
+
+header .trilha button {
+    font-weight: 900;
+    font-size: 16px;
+    color: #31A8DD;
+    display: flex;
+    align-items: center;
+    line-height: 18.78px;
+    padding: 20px;
+    border: 1px solid #31A8DD;
+    width: 234px;
+    height: 19px;
+    margin-bottom: 50px;
+    background: transparent;
+    cursor: pointer;
+}
+
+.modulos {
+    text-align: center;
+    width: 792px;
+    /* height: 325px; */
+    margin: auto;
+    /* border-bottom: 1px solid #33A8DB; */
+    
+    
+
+}
+
+.modulos h2 {
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: 32px;
+    color: #33A8DB;
+    line-height: 37.57px;
+    height: 38px;
+}
+
+.modulos p {
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+    line-height: 18.78px;
+    flex-wrap: wrap;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.modulos .lista{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.modulos .itens{
+    border-radius: 57px;
+    width: 535px;
+    height: 51px;
+    border: 1px solid #33A8DB;
+    box-shadow: -2px 6px 4px 0px #00000066 inset;
+    background: linear-gradient(0deg, #252525, #252525),
+    linear-gradient(0deg, #33A8DB, #33A8DB);
+    margin: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 18.78px;
+    cursor: pointer;
+}
+
+span{
+   color: #33A8DB;
+   background: transparent;
+}
+
+.transforme {
+    width: 100%;
+    height: 400px;
+    background-image: url('images/woman-code.png');
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: 1px solid #33A8DB;
+    border-top: 1px solid #33A8DB;
+}
+
+.transforme p{
+    font-weight: 900;
+    width: 244px;
+    height: 141px;
+    font-size: 40px;
+    line-height: 46.96px;
+    background: transparent;
+    padding: 130px 0 0px 60px;
+
+}
+
+
+.evolua{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid #33A8DB;
+    
+}
+
+.evolua h2{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    text-align: center;
+    width: 746px;
+    height: 76px;
+    padding: 30px;
+    color: #33A8DB;
+    margin-top: 30px;
+
+}
+
+.evolua p{
+    width: 792px;
+    height: 76px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+    margin: 50px 0 70px 0;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 170px;    
+}
+
+footer .img {
+    width: 310px;
+    height: 44px;
+}
+
+footer a{
+    color: #33A8DB;
+}
